@@ -1,5 +1,6 @@
 🧠 AI-First CRM – HCP Interaction Module
 📌 Overview
+
 This project is an AI-powered CRM module designed for medical sales representatives to log and manage interactions with Healthcare Professionals (HCPs).
 
 It allows users to:
@@ -45,10 +46,12 @@ cd ai-crm-hcp-module
 2. Backend Setup
 cd backend
 pip install -r requirements.txt
+
 Create .env file:
 
 GROQ_API_KEY=your_api_key_here
 DATABASE_URL=your_database_url
+
 Run server:
 
 uvicorn main:app --reload
